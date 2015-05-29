@@ -57,9 +57,9 @@ module.exports = (grunt) ->
     bump:
       options:
         pushTo: 'origin'
-        files: ['package.json', 'bower.json']
+        files: ['package.json']
         syncVersions: true
-        commitFiles: ['dist/*', 'docs/*', 'source/*', '.gitignore', './*.{json,md,coffee}']
+        commitFiles: ['dist/*', 'src/*', '.gitignore', './*.{json,md,coffee,js}', './LICENSE']
 
     karma:
       options:

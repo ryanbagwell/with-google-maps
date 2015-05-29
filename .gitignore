@@ -1,3 +1,4 @@
+node_modules
 test/test.js
 test/test.map
 test/results.html
