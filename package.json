@@ -1,6 +1,6 @@
 {
   "name": "with-google-maps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides a method of asynchronously loading google maps",
   "main": "dist/index.js",
   "scripts": {
